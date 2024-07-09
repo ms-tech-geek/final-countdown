@@ -15,6 +15,7 @@ const TimerChallenge = ({ title, targetTime }) => {
   const handleStop = () => {
     clearTimeout(timer.current);
     setTimerStarted(false);
+    setTimerExpired(false);
   };
 
   return (
