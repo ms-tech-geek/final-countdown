@@ -17,7 +17,7 @@ const ResultModal = forwardRef(
     });
 
     return (
-      <dialog className="result-modal" ref={dialog}>
+      <dialog className="result-modal" ref={dialog} onClose={onReset}>
         {userLost ? <h2>You lost!</h2> : <h2>Your Score : {score}</h2>}
         <p>
           The target tune was <strong>{targetTime}</strong>
