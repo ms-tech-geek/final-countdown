@@ -16,11 +16,3 @@ You can try the game at the following URL:
 4. The game will then display your score.
 5. If you want to try again, click the "Reset" button.
 
-## Technologies Used
-
-- React
-- Vite
-
-## Installation
-
-1. Clone the repository:
